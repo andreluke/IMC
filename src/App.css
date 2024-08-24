@@ -72,12 +72,17 @@ span {
 }
 
 .theme-button {
-  width: 5%;
+  width: 4%;
   height: 46px;
   border: 0;
   border-radius: 8px;
-  background-color: rgb(45, 79, 148);
+  background-color: rgb(68, 54, 131);
   font-size: 16px;
   font-weight: bold;
-  margin-bottom: 15px;
+  margin-top: 15px;
+  bottom: 20%;
+}
+
+h2{
+  text-align: center;
 }

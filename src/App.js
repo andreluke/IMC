@@ -4,8 +4,8 @@ import SunnyOutline from "react-ionicons/lib/SunnyOutline";
 import MoonOutline from "react-ionicons/lib/MoonOutline";
 
 function App() {
-  const [peso, setPeso] = useState(0);
-  const [altura, setAltura] = useState(0);
+  const [peso, setPeso] = useState("");
+  const [altura, setAltura] = useState("");
   const [message, setMessage] = useState("");
   const [theme, setTheme] = useState("light");
 
@@ -36,6 +36,7 @@ function App() {
     <div className={`App ${theme}`}>
       <h1>Calculadora IMC</h1>
       <span>Vamos calcular seu IMC!</span>
+      
       <div className="area-input">
         <input
           type="number"
